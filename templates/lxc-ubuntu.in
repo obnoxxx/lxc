@@ -673,8 +673,9 @@ usage()
 $1 -h|--help [-a|--arch] [-b|--bindhome <user>] [-d|--debug]
    [-F | --flush-cache] [-r|--release <release>] [ -S | --auth-key <keyfile>]
    [--rootfs <rootfs>] [--packages <packages>] [-u|--user <user>] [--password <password>]
-   [--mirror <url>] [--security-mirror <url>]
+   [--mirror <url>] [--security-mirror <url>] [-p|--path <path>]
 release: the ubuntu release (e.g. precise): defaults to host release on ubuntu, otherwise uses latest LTS
+path: path under which the container will be created
 bindhome: bind <user>'s home into the container
           The ubuntu user will not be created, and <user> will have
           sudo access.
