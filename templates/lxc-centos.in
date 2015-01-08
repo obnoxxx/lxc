@@ -671,7 +671,8 @@ usage:
 Mandatory args:
   -n,--name         container name, used to as an identifier for that container from now on
 Optional args:
-  -p,--path         path to where the container rootfs will be created, defaults to /var/lib/lxc/name.
+  -p,--path         path to where the container rootfs will be created, defaults to @LXCPATH@/<name>.
+
   -c,--clean        clean the cache
   -R,--release      Centos release for the new container. if the host is Centos, then it will defaultto the host's release.
      --fqdn         fully qualified domain name (FQDN) for DNS and system naming
