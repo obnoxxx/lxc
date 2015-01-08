@@ -1189,7 +1189,7 @@ usage:
 Mandatory args:
   -n,--name         container name, used to as an identifier for that container from now on
 Optional args:
-  -p,--path         path to where the container will be created, defaults to @LXCPATH@. The container config will go under @LXCPATH@ in that case
+  -p,--path         path to where the container will be created, defaults to @LXCPATH@/<name>.
   --rootfs          path for actual rootfs.
   -c,--clean        clean the cache
   -R,--release      Fedora release for the new container. if the host is Fedora, then it will default to the host's release.
