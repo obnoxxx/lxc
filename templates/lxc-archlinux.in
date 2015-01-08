@@ -193,8 +193,8 @@ usage:
 Mandatory args:
   -n,--name           container name, used to as an identifier for that container from now on
 Optional args:
-  -p,--path           path to where the container rootfs will be created (${default_path})
-  --rootfs            path for actual container rootfs, (${default_path/rootfs)
+  -p,--path           path to where the container rootfs will be created (${default_path}/<container_name>)
+  --rootfs            path for actual container rootfs, (${default_path/<container_name>/rootfs)
   -P,--packages       preinstall additional packages, comma-separated list
   -e,--enable_units   enable systemd services, comma-separated list
   -d,--disable_units  disable systemd services, comma-separated list
