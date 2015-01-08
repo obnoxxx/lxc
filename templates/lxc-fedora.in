@@ -1198,7 +1198,7 @@ Mandatory args:
   -n,--name         container name, used to as an identifier for that container
 Optional args:
   -p,--path         path to where the container will be created,
-                    defaults to @LXCPATH@.
+                    defaults to @LXCPATH@/<name>.
   --rootfs          path for actual rootfs.
   -c,--clean        clean the cache
   -R,--release      Fedora release for the new container.
